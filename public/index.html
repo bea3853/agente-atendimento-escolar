@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Atendimento Virtual - Escola Técnica Horizonte</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <div class="school-info">
+        <div class="avatar">🎓</div>
+        <div>
+          <h1>Escola Técnica Horizonte</h1>
+          <span class="status">Assistente virtual • online</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat-messages" id="chat-messages"></main>
+
+    <div class="typing-indicator" id="typing-indicator" hidden>
+      <span></span><span></span><span></span>
+    </div>
+
+    <form class="chat-input-area" id="chat-form">
+      <input
+        type="text"
+        id="chat-input"
+        placeholder="Digite sua pergunta sobre a escola..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="send-btn" aria-label="Enviar">➤</button>
+    </form>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
