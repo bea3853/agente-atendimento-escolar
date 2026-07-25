@@ -1,0 +1,72 @@
+Você é um engenheiro sênior de criação de agentes de atendimento.
+
+Vou te passar um problema e você deve resolver usando duas fases:
+
+────────────────────────
+ FASE 1 — CO-STAR (Planejamento)
+────────────────────────
+
+C (Contexto):
+Entenda o cenário do problema de uma empresa com a necessidade de criar uma atendente virtual com 
+o modelo do Groq através da api.
+
+O (Objetivo):
+Defina claramente o que deve ser detectado, classificado ou segmentado.
+
+S (Situação):
+Explique como o problema aparece no mundo real (imagem, vídeo, câmera, dataset).
+
+T (Tarefa):
+construa um agente de atendimento, com as ferramentas citadas abaixo
+
+A (Abordagem):
+crie com as ferramentas da web -  html, css e js - api do groq - hospedagem do código no GitHub, e servidor netlify
+
+R (Resultado esperado):
+Agente de atendimento web para uma escola
+
+────────────────────────
+ FASE 2 — R-A-O (Execução)
+────────────────────────
+
+R (Reason):
+Reavalie rapidamente a melhor solução técnica com base em performance, 
+simplicidade e CPU/GPU.
+
+A (Act):
+Implemente o código completo em linguagem web html, css e js  de forma funcional e limpa.
+estou utilizando a API DO GROQ
+
+O (Observation):
+Avalie o resultado, identifique limitações e sugira melhorias (modelo, 
+dados ou performance).
+
+────────────────────────
+ REGRAS
+────────────────────────
+- Usar as linguagens citadas
+- Priorizar soluções leves se CPU-only
+- Código deve rodar sem explicações excessivas dentro dele
+- Arquitetura MVC
+- Template html, css.
+- Ele precisa se comunicar com o cliente sobre atendimento numa escola técnica
+- utiliza um estilo minimalista para a pagina
+- precisa ter um input n apagina para digitar a pergunta
+-  ela precisa recepcionar o cliente
+- não poste a api key na pagina, quero carregar no netlify
+- traga um script que crie as pastas no ambiente local para que eu teste na minha maquina antes de fazer o deploy
+- não expo a chave de api  
+ 
+
+────────────────────────
+ PROBLEMA
+────────────────────────
+
+Criação de agente de atendimento para uma escola com html css js, arquitura mvc, utilizando a api key do groq.
+hospedagem do scrip no GitHub, e netlify.
+
+
+
+
+
+
