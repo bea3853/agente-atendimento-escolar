@@ -5,3 +5,5 @@
 3. `npx netlify dev` para testar localmente
 4. Suba para o GitHub e conecte o repositório no Netlify
 5. Em Netlify > Site settings > Environment variables, adicione GROQ_API_KEY
+
+![MVC WEB](img-mvc.png)
