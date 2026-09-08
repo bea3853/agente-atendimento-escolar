@@ -44,7 +44,7 @@ exports.handler = async (event) => {
         Authorization: `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: 'openai/gpt-oss-20bt',
+        model: 'openai/gpt-oss-120b',
         messages,
         temperature: 0.6,
         max_tokens: 500
